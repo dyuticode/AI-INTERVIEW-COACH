@@ -1,0 +1,16 @@
+# Local API Keys / Secrets
+.env
+
+# Python caching systems
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments (if you used one)
+venv/
+.venv/
+env/
+
+# Streamlit config files
+.streamlit/
