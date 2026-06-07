@@ -21,13 +21,18 @@ AI Interview Coach is a functional, real-time responsive web application designe
 The project is engineered with a modular separation of concerns, decoupling the frontend interface from the audio abstraction layer and AI evaluation prompt architecture.
 
 
-AI-Interview-Coach/
-│
+AI-Interview-Coach:
+
 ├── app.py                  # Main orchestration engine & Streamlit Web UI
+
 ├── interview_questions.py  # Static repository of curated Technical & HR question banks
+
 ├── feedback_engine.py      # Google Gemini API integration and structured JSON layout parser
+
 ├── speech_utils.py         # Audio capture and Speech-to-Text translation pipeline
+
 ├── requirements.txt        # Managed third-party dependencies package manifest
+
 └── .env                    # Secure local environment configuration (Git-ignored)
 
 
